@@ -1,5 +1,7 @@
-with open("day01.in") as fin:
+with open("day_01.in") as fin:
     data = fin.read()
+
+ans = 0
 
 for line in data.strip().split():
     first = None
