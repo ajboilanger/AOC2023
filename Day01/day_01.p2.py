@@ -2,8 +2,7 @@ with open("day_01.in") as fin:
     data = fin.read()
 
 ans = 0
-nums = ["one", "two", "three", "four", "five",
-        "six", "seven", "eight", "nine"]
+nums = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "zero"]
 
 for line in data.strip().split():
     first = None
